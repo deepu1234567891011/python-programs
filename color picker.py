@@ -6,7 +6,7 @@ print("available colors are:",color_names)
 # taking loop for user choice 4 times it will ask
 for attempt in range(4):
     user=input("enter a your guess of color:").strip().lower()#user enter the color randomly
-    #if user enter color and computer color are mathed it will print winner other wise else stament
+    #if user enter color and computer color are matched it will print winner other wise else stament
     if user==color:
         print("hey your winner keep going deepu!!")
         break
